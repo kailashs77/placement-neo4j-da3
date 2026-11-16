@@ -1,0 +1,43 @@
+﻿0 rows
+ready to start consuming query after 157 ms, results consumed after another 0 ms
+Added 1 constraint
+0 rows
+ready to start consuming query after 62 ms, results consumed after another 0 ms
+Added 1 constraint
+0 rows
+ready to start consuming query after 49 ms, results consumed after another 0 ms
+Added 1 constraint
+0 rows
+ready to start consuming query after 52 ms, results consumed after another 0 ms
+Added 1 constraint
+0 rows
+ready to start consuming query after 51 ms, results consumed after another 0 ms
+Added 1 constraint
+0 rows
+ready to start consuming query after 55 ms, results consumed after another 0 ms
+Added 1 constraint
+0 rows
+ready to start consuming query after 43 ms, results consumed after another 1 ms
+Added 1 constraint
+0 rows
+ready to start consuming query after 49 ms, results consumed after another 0 ms
+Added 1 constraint
+0 rows
+ready to start consuming query after 50 ms, results consumed after another 0 ms
+Added 1 constraint
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| id | name             | type                       | entityType | labelsOrTypes          | properties         | enforcedLabel | ownedIndex       | propertyType |
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| 16 | "app_id"         | "NODE_PROPERTY_UNIQUENESS" | "NODE"     | ["Application"]        | ["app_id"]         | NULL          | "app_id"         | NULL         |
+| 12 | "company_id"     | "NODE_PROPERTY_UNIQUENESS" | "NODE"     | ["Company"]            | ["company_id"]     | NULL          | "company_id"     | NULL         |
+| 6  | "dept_id"        | "NODE_PROPERTY_UNIQUENESS" | "NODE"     | ["Department"]         | ["dept_id"]        | NULL          | "dept_id"        | NULL         |
+| 8  | "faculty_id"     | "NODE_PROPERTY_UNIQUENESS" | "NODE"     | ["FacultyCoordinator"] | ["faculty_id"]     | NULL          | "faculty_id"     | NULL         |
+| 18 | "interview_id"   | "NODE_PROPERTY_UNIQUENESS" | "NODE"     | ["Interview"]          | ["interview_id"]   | NULL          | "interview_id"   | NULL         |
+| 10 | "officer_id"     | "NODE_PROPERTY_UNIQUENESS" | "NODE"     | ["PlacementOfficer"]   | ["officer_id"]     | NULL          | "officer_id"     | NULL         |
+| 14 | "opportunity_id" | "NODE_PROPERTY_UNIQUENESS" | "NODE"     | ["Opportunity"]        | ["opportunity_id"] | NULL          | "opportunity_id" | NULL         |
+| 20 | "skill_name"     | "NODE_PROPERTY_UNIQUENESS" | "NODE"     | ["Skill"]              | ["name"]           | NULL          | "skill_name"     | NULL         |
+| 4  | "student_id"     | "NODE_PROPERTY_UNIQUENESS" | "NODE"     | ["Student"]            | ["student_id"]     | NULL          | "student_id"     | NULL         |
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+9 rows
+ready to start consuming query after 152 ms, results consumed after another 25 ms

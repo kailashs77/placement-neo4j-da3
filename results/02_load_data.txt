@@ -1,0 +1,92 @@
+﻿0 rows
+ready to start consuming query after 609 ms, results consumed after another 0 ms
+Created 3 nodes, set 15 properties, added 3 labels
+0 rows
+ready to start consuming query after 103 ms, results consumed after another 0 ms
+Created 3 nodes, set 18 properties, added 3 labels
+0 rows
+ready to start consuming query after 77 ms, results consumed after another 0 ms
+Created 2 nodes, set 12 properties, added 2 labels
+0 rows
+ready to start consuming query after 100 ms, results consumed after another 0 ms
+Created 4 nodes, set 36 properties, added 4 labels
+0 rows
+ready to start consuming query after 62 ms, results consumed after another 0 ms
+Created 6 nodes, set 6 properties, added 6 labels
+0 rows
+ready to start consuming query after 273 ms, results consumed after another 0 ms
+Created 3 nodes, set 18 properties, added 6 labels
+0 rows
+ready to start consuming query after 100 ms, results consumed after another 0 ms
+Created 3 nodes, set 18 properties, added 6 labels
+0 rows
+ready to start consuming query after 113 ms, results consumed after another 0 ms
+Created 6 nodes, set 54 properties, added 6 labels
+0 rows
+ready to start consuming query after 95 ms, results consumed after another 0 ms
+Created 7 nodes, set 28 properties, added 7 labels
+0 rows
+ready to start consuming query after 72 ms, results consumed after another 0 ms
+Created 4 nodes, set 24 properties, added 4 labels
+0 rows
+ready to start consuming query after 520 ms, results consumed after another 0 ms
+Created 6 relationships
+0 rows
+ready to start consuming query after 87 ms, results consumed after another 0 ms
+Created 6 relationships
+0 rows
+ready to start consuming query after 90 ms, results consumed after another 0 ms
+Created 5 relationships
+0 rows
+ready to start consuming query after 88 ms, results consumed after another 0 ms
+Created 6 relationships
+0 rows
+ready to start consuming query after 98 ms, results consumed after another 0 ms
+Created 13 relationships
+0 rows
+ready to start consuming query after 77 ms, results consumed after another 0 ms
+Created 12 relationships
+0 rows
+ready to start consuming query after 97 ms, results consumed after another 0 ms
+Created 14 relationships
+0 rows
+ready to start consuming query after 67 ms, results consumed after another 0 ms
+Created 4 relationships
+0 rows
+ready to start consuming query after 98 ms, results consumed after another 0 ms
+Created 2 relationships, set 2 properties
++------------------------------+
+| label                | nodes |
++------------------------------+
+| "Application"        | 7     |
+| "Company"            | 4     |
+| "Department"         | 3     |
+| "FacultyCoordinator" | 3     |
+| "Internship"         | 3     |
+| "Interview"          | 4     |
+| "JobOffer"           | 3     |
+| "Opportunity"        | 6     |
+| "PlacementOfficer"   | 2     |
+| "Skill"              | 6     |
+| "Student"            | 6     |
++------------------------------+
+
+11 rows
+ready to start consuming query after 198 ms, results consumed after another 8 ms
++--------------------------+
+| relationship     | total |
++--------------------------+
+| "ACCEPTED"       | 2     |
+| "BELONGS_TO"     | 6     |
+| "FOR"            | 7     |
+| "GUIDES"         | 6     |
+| "HAS_INTERVIEW"  | 4     |
+| "HAS_SKILL"      | 13    |
+| "MANAGES"        | 5     |
+| "OFFERS"         | 6     |
+| "REQUIRES_SKILL" | 12    |
+| "SUBMITTED"      | 7     |
++--------------------------+
+
+10 rows
+ready to start consuming query after 72 ms, results consumed after another 3 ms

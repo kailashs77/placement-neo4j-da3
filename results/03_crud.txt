@@ -1,0 +1,124 @@
+﻿+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| s                                                                                                                                                                                | d                                                                                                             | sk                        |
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| (:Student {city: "Madurai", last_name: "Krishnan", student_id: "S007", state: "Tamil Nadu", cgpa: 8.4, first_name: "Gokul", branch: "CSE", email: "gokul.krishnan@college.edu"}) | (:Department {office_room: "T-201", name: "Computer Science", office_building: "Tech Block", dept_id: "D01"}) | (:Skill {name: "Java"})   |
+| (:Student {city: "Madurai", last_name: "Krishnan", student_id: "S007", state: "Tamil Nadu", cgpa: 8.4, first_name: "Gokul", branch: "CSE", email: "gokul.krishnan@college.edu"}) | (:Department {office_room: "T-201", name: "Computer Science", office_building: "Tech Block", dept_id: "D01"}) | (:Skill {name: "Python"}) |
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+2 rows
+ready to start consuming query after 105 ms, results consumed after another 6 ms
+Created 1 node, created 3 relationships, set 8 properties, added 1 label
++-------------------------------------+
+| student | app_id   | applied_for    |
++-------------------------------------+
+| "Gokul" | "S007-1" | "Data Analyst" |
++-------------------------------------+
+
+1 row
+ready to start consuming query after 79 ms, results consumed after another 4 ms
+Created 1 node, created 2 relationships, set 3 properties, added 1 label
++-----------------------------+
+| i.interview_id | i.result   |
++-----------------------------+
+| "S002-1-1"     | "Selected" |
++-----------------------------+
+
+1 row
+ready to start consuming query after 54 ms, results consumed after another 2 ms
+Set 1 property
++-----------------------+
+| a.app_id | a.status   |
++-----------------------+
+| "S002-1" | "Selected" |
++-----------------------+
+
+1 row
+ready to start consuming query after 53 ms, results consumed after another 1 ms
+Set 1 property
++--------------------------------------+
+| s.student_id | s.first_name | s.cgpa |
++--------------------------------------+
+| "S004"       | "Divya"      | 8.05   |
++--------------------------------------+
+
+1 row
+ready to start consuming query after 32 ms, results consumed after another 1 ms
+Set 1 property
++--------------------------------------------------------------+
+| s.first_name | o.title               | r.offer_accepted_date |
++--------------------------------------------------------------+
+| "Priya"      | "Data Science Intern" | 2026-11-16            |
++--------------------------------------------------------------+
+
+1 row
+ready to start consuming query after 62 ms, results consumed after another 1 ms
+Created 1 relationship, set 1 property
++------------------------------------------------------------------+
+| student | app_id   | opportunity                | status         |
++------------------------------------------------------------------+
+| "Arjun" | "S001-1" | "Software Engineer"        | "Selected"     |
+| "Arjun" | "S001-2" | "Backend Developer Intern" | "Under Review" |
+| "Rahul" | "S005-1" | "Backend Developer Intern" | "Rejected"     |
++------------------------------------------------------------------+
+
+3 rows
+ready to start consuming query after 80 ms, results consumed after another 1 ms
++----------------------------------------------------------------------------------+
+| s.student_id | name             | s.cgpa | skills                                |
++----------------------------------------------------------------------------------+
+| "S002"       | "Priya Nair"     | 9.1    | ["SQL", "Machine Learning", "Python"] |
+| "S001"       | "Arjun Sharma"   | 8.9    | ["Python", "SQL", "Java"]             |
+| "S007"       | "Gokul Krishnan" | 8.4    | ["Python", "Java"]                    |
+| "S005"       | "Rahul Verma"    | 8.0    | ["SQL", "Python", "Java"]             |
++----------------------------------------------------------------------------------+
+
+4 rows
+ready to start consuming query after 98 ms, results consumed after another 6 ms
++---------------------------------------------------------------------------+
+| company      | o.title                    | o.stipend | o.duration_months |
++---------------------------------------------------------------------------+
+| "DataSphere" | "Data Science Intern"      | 30000     | 6                 |
+| "TechNova"   | "Backend Developer Intern" | 25000     | 6                 |
++---------------------------------------------------------------------------+
+
+2 rows
+ready to start consuming query after 51 ms, results consumed after another 1 ms
++----------------------------------------+
+| s.student_id | s.first_name | s.branch |
++----------------------------------------+
+| "S004"       | "Divya"      | "ECE"    |
++----------------------------------------+
+
+1 row
+ready to start consuming query after 32 ms, results consumed after another 1 ms
++-----------------------------------------------------------------------------------------------------------------------------------------+
+| a.app_id | company    | o.title                    | type                          | a.status       | interview_date | interview_result |
++-----------------------------------------------------------------------------------------------------------------------------------------+
+| "S001-1" | "TechNova" | "Software Engineer"        | ["Opportunity", "JobOffer"]   | "Selected"     | 2026-09-18     | "Selected"       |
+| "S001-2" | "TechNova" | "Backend Developer Intern" | ["Opportunity", "Internship"] | "Under Review" | NULL           | NULL             |
++-----------------------------------------------------------------------------------------------------------------------------------------+
+
+2 rows
+ready to start consuming query after 64 ms, results consumed after another 1 ms
+0 rows
+ready to start consuming query after 65 ms, results consumed after another 0 ms
+Deleted 1 node, deleted 2 relationships
++---+
+| a |
++---+
++---+
+
+0 rows
+ready to start consuming query after 19 ms, results consumed after another 2 ms
+0 rows
+ready to start consuming query after 37 ms, results consumed after another 0 ms
+Deleted 1 relationship
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| s                                                                                                                                                               |
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| (:Student {student_id: "S007", last_name: "Krishnan", cgpa: 8.4, state: "Tamil Nadu", first_name: "Gokul", branch: "CSE", email: "gokul.krishnan@college.edu"}) |
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+1 row
+ready to start consuming query after 35 ms, results consumed after another 2 ms
+Set 1 property

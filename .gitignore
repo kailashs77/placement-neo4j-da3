@@ -1,0 +1,5 @@
+# The Neo4j server itself (about 300 MB, plus the local database files)
+neo4j-server/
+
+# Login details for the local server
+local-login.txt
